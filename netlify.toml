@@ -1,4 +1,4 @@
 [build]
-base = "social-card/"
-publish = "social-card/build/"
+base = "Project-I-Social-Card/social-card/"
+publish = "Project-I-Social-Card/social-card/build/"
 command = "yarn build"
