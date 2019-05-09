@@ -11,7 +11,7 @@ const CardContent = () => {
       </p>
       <p className="secondary url">reactjs.org</p>
     </div>
-  )  
+  )
 }
 
 export default CardContent

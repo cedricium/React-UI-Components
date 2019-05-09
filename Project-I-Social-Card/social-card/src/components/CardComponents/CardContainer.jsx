@@ -7,8 +7,10 @@ import CardContent from './CardContent'
 const CardContainer = () => {
   return (
     <main className="card-container">
-      <CardBanner />
-      <CardContent />
+      <div className="card-wrapper">
+        <CardBanner />
+        <CardContent />
+      </div>
     </main>
   )
 }
