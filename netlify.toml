@@ -1,0 +1,4 @@
+[build]
+base = "social-card/"
+publish = "social-card/build/"
+command = "yarn build"
