@@ -6,7 +6,7 @@ import CardContent from './CardContent'
 
 const CardContainer = () => {
   const handleClick = () => {
-    window.location.assign('https://www.reactjs.org')
+    window.location.href = 'https://www.reactjs.org'
   }
   return (
     <main className="card-container" onClick={handleClick}>
