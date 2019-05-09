@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import dayjs from 'dayjs'
 
 const HeaderTitle = () => {
   return (
@@ -7,7 +8,7 @@ const HeaderTitle = () => {
       <p className="primary">Lambda School</p>
       <p className="secondary">
         <span className="username">@LambdaSchool</span>{` `}&middot;{` `}
-        <span className="date">26 Jan</span>
+        <span className="date">{ dayjs().format('MMM D') }</span>
       </p>
     </div>
   )
