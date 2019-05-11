@@ -1,0 +1,30 @@
+.button {
+  font-size: 48px;
+  height: 100%;
+  width: 100%;
+
+  -webkit-appearance: button;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px 7px 2px;
+
+  text-align: center;
+  cursor: pointer;
+  color: #111111;
+  padding: 2px 6px 3px 6px;
+  border: 2px outset #EEEEEE;
+  background-color: #EEEEEE;
+  box-sizing: border-box;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button.light { background: #EEEEEE; }
+.button.light:hover { background: #DADADA; }
+.button.light:active { background: #C6C6C6; }
+
+.button.primary { background: #F012BE; }
+.button.primary:hover { background: #DC00AA; }
+.button.primary:active { background: #C80096; }
