@@ -8,41 +8,46 @@ import NumberButton from '../ButtonComponents/NumberButton'
 const CalculatorWrapper = () => {
   return (
     <div className="calculator-wrapper">
-      <CalculatorDisplay />
+      <CalculatorDisplay text="0" />
       <div className="calculator-body">
         <div className="number-pad">
           <div className="row">
-            <NumberButton />
+            <NumberButton text="clear" />
           </div>
           <div className="row">
-            <NumberButton />
-            <NumberButton />
-            <NumberButton />
+            <NumberButton text="7" />
+            <NumberButton text="8" />
+            <NumberButton text="9" />
           </div>
           <div className="row">
-            <NumberButton />
-            <NumberButton />
-            <NumberButton />
+            <NumberButton text="4" />
+            <NumberButton text="5" />
+            <NumberButton text="6" />
           </div>
           <div className="row">
-            <NumberButton />
+            <NumberButton text="1" />
+            <NumberButton text="2" />
+            <NumberButton text="3" />
+          </div>
+          <div className="row">
+            <NumberButton text="0" />
           </div>
         </div>
         <div className="action-pad">
           <div className="row">
-            <ActionButton />
+            <ActionButton text="%" />
           </div>
           <div className="row">
-            <ActionButton />
+            <ActionButton text="*" />
           </div>
           <div className="row">
-            <ActionButton />
+            <ActionButton text="-" />
           </div>
           <div className="row">
-            <ActionButton />
+            <ActionButton text="+" />
           </div>
           <div className="row">
-            <ActionButton />
+            <ActionButton text="=" />
           </div>
         </div>
       </div>
