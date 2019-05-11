@@ -12,42 +12,42 @@ const CalculatorWrapper = () => {
       <div className="calculator-body">
         <div className="number-pad">
           <div className="row">
-            <NumberButton text="clear" />
+            <NumberButton buttonStyle="button light" text="clear" />
           </div>
           <div className="row">
-            <NumberButton text="7" />
-            <NumberButton text="8" />
-            <NumberButton text="9" />
+            <NumberButton buttonStyle="button light" text="7" />
+            <NumberButton buttonStyle="button light" text="8" />
+            <NumberButton buttonStyle="button light" text="9" />
           </div>
           <div className="row">
-            <NumberButton text="4" />
-            <NumberButton text="5" />
-            <NumberButton text="6" />
+            <NumberButton buttonStyle="button light" text="4" />
+            <NumberButton buttonStyle="button light" text="5" />
+            <NumberButton buttonStyle="button light" text="6" />
           </div>
           <div className="row">
-            <NumberButton text="1" />
-            <NumberButton text="2" />
-            <NumberButton text="3" />
+            <NumberButton buttonStyle="button light" text="1" />
+            <NumberButton buttonStyle="button light" text="2" />
+            <NumberButton buttonStyle="button light" text="3" />
           </div>
           <div className="row">
-            <NumberButton text="0" />
+            <NumberButton buttonStyle="button light" text="0" />
           </div>
         </div>
         <div className="action-pad">
           <div className="row">
-            <ActionButton text="%" />
+            <ActionButton buttonStyle="button primary" text="%" />
           </div>
           <div className="row">
-            <ActionButton text="*" />
+            <ActionButton buttonStyle="button primary" text="x" />
           </div>
           <div className="row">
-            <ActionButton text="-" />
+            <ActionButton buttonStyle="button primary" text="-" />
           </div>
           <div className="row">
-            <ActionButton text="+" />
+            <ActionButton buttonStyle="button primary" text="+" />
           </div>
           <div className="row">
-            <ActionButton text="=" />
+            <ActionButton buttonStyle="button primary" text="=" />
           </div>
         </div>
       </div>
