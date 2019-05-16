@@ -1,0 +1,44 @@
+.calculator-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 600px;
+  width: 100%;
+  max-width: 400px;
+  background: #DDDDDD;
+  border: solid 3px #7FDBFF;
+}
+
+.calculator-wrapper .calculator-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* needed to fix weird spacing on Chrome */
+}
+
+.calculator-wrapper .calculator-body .number-pad {
+  flex: 3;
+  height: 100%;
+}
+
+.calculator-wrapper .calculator-body .action-pad {
+  flex: 1;
+  height: 100%;
+}
+
+.calculator-wrapper .calculator-body .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 100px;
+  width: 100%;
+  background: teal;
+}
